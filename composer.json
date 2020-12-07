@@ -1,0 +1,21 @@
+{ 
+    "name":"bkkkd/laravel-admin-excel", 
+    "description":"test", 
+    "authors":[ 
+        { 
+            "name":"bkkkd", 
+            "email":"bkkkd@163.com" 
+
+        } 
+
+    ], 
+    "minimum-stability":"dev", 
+    "require":{
+        "phpoffice/phpspreadsheet": "dev-master"
+    }, 
+    "autoload":{ 
+        "psr-4":{ 
+            "bkkkd\\LaravelAdminExcel\\":"src/"
+        }
+    }
+}

@@ -8,6 +8,7 @@
     }
   ],
   "minimum-stability": "dev",
+  "version": "1.0",
   "require": {
     "encore/laravel-admin": "^1.6",
     "phpoffice/phpspreadsheet": "^1.6"

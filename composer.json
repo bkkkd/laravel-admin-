@@ -9,8 +9,8 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "phpoffice/phpspreadsheet": "dev-master",
-    "encore/laravel-admin": "^1.6"
+    "encore/laravel-admin": "^1.6",
+    "phpoffice/phpspreadsheet": "^1.6"
   },
   "autoload": {
     "psr-4": {

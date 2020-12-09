@@ -32,5 +32,5 @@ trait ImportActions
         $sheet = IOFactory::load($data['import']->getRealpath());
         return $this->importSaving($sheet);
     }
-    abstract function importSaving(Spreadsheet $sheet):Content;
+    abstract function importSaving(Spreadsheet $sheet);
 }

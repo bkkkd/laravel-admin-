@@ -23,7 +23,7 @@ trait ImportActions
         $file = $form->file('import')->rules('required')
             ->options(['initialPreviewAsData' => false, 'overwriteInitial' => false, 'showPreview' => false]);
         if($this->importTplResponse()){
-            $file->help("<a href='importTpl'>模板</a>");
+            $file->help("<a href='importTpl' target='_blank'>模板</a>");
         }
 
         return $content->header('导入数据')

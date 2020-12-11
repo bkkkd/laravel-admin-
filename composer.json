@@ -17,5 +17,12 @@
     "psr-4": {
       "bkkkd\\LaravelAdminExcel\\": "src/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "bkkkd\\LaravelAdminExcel\\LaravelAdminExcelServiceProvider"
+      ]
+    }
   }
 }

@@ -52,5 +52,5 @@ trait ImportActions
 
     abstract protected function importSaving(Spreadsheet $sheet);
 
-    abstract protected function importTplResponse():Response;
+    abstract protected function importTplResponse();
 }

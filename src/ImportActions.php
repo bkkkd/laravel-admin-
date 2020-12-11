@@ -16,7 +16,7 @@ trait ImportActions
 
     public function importForm(Content $content,Request $request){
         $form = new WidgetsForm();
-        $form->action('importPost');
+        $form->action('import');
         $form->file('import')->rules('required')
             ->options(['initialPreviewAsData'=>false,'overwriteInitial'=>false,'showPreview'=>false]);
 
